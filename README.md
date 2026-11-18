@@ -12,7 +12,7 @@ Mainuan AppImage Manager lets you easily integrate AppImage applications into yo
 ## Screenshots
 
 <div align="center">
-  <img src="assets/screenshots/screenshot1.png" width="60%" alt="Mainuan AppImage Manager"/>
+  <img src="assets/screenshots/screenshot1.png" width="80%" alt="Mainuan AppImage Manager"/>
 </div>
 
 ## Features
@@ -31,7 +31,7 @@ Mainuan AppImage Manager lets you easily integrate AppImage applications into yo
 - **Run as root**: mark any AppImage to launch with `pkexec` — PolicyKit authentication dialog appears on launch
 - **Automatic updates**: checks GitHub, GitLab and Codeberg release APIs, direct URL comparison, or embedded `appimageupdatetool` info
 - **Check All Updates**: inspect all AppImages with a configured update source in one click; update them all from the same dialog
-- **Internationalisation**: ships with 9 languages (de, en, es, fr, it, pt, pt_BR, ro, ru)
+- **Internationalisation**: ships with 9 languages (pt-PT, pt-BR, de, en, es, fr, it, ro, ru)
 - **Mainuan UI**: consistent dark theme matching the Mainuan Linux ecosystem
 
 ## Requirements
@@ -46,7 +46,7 @@ Mainuan AppImage Manager lets you easily integrate AppImage applications into yo
 Usually shipped natively with Mainuan Linux. To run locally:
 
 ```bash
-git clone https://github.com/MainuanLinux/mainuan-appimage-manager.git
+git clone https://github.com/mainuan/mainuan-appimage-manager.git
 cd mainuan-appimage-manager
 python3 main.py
 ```
