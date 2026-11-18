@@ -1,3 +1,7 @@
+<div align="center">
+
+<img src="assets/icons/128x128/org.mainuan.appimagemanager.png" width="96" alt="Ícone do Mainuan AppImage Manager">
+
 # Mainuan AppImage Manager
 
 [![License: GPL-3.0+](https://img.shields.io/badge/License-GPL--3.0%2B-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
@@ -43,13 +47,31 @@ Mainuan AppImage Manager lets you easily integrate AppImage applications into yo
 
 ## Installation
 
-Usually shipped natively with Mainuan Linux. To run locally:
+The Mainuan AppImage Manager is already installed on the Mainuan Linux ISO or available on the Mainuan Store.
+
+On another Kubuntu/Ubuntu 26.04 system, download the `.deb` and the `SHA256SUMS` from
+[latest release](https://github.com/mainuan/mainuan-appimage-manager/releases/latest),
+check and install:
+
+```bash
+sha256sum --check --ignore-missing SHA256SUMS
+sudo apt install ./mainuan-appimage-manager_1.0.3.deb
 
 ```bash
 git clone https://github.com/mainuan/mainuan-appimage-manager.git
 cd mainuan-appimage-manager
 python3 main.py
 ```
+## Usage
+
+Open **Mainuan AppImage Manager** from your application menu (under the System/Settings category) or run:
+
+```bash
+mainuan-appimage-manager
+```
+
+The program has no command-line options; everything is handled via the interface
+(`man mainuan-appimage-manager`). The administrator password is requested via `pkexec`.
 
 ## Structure
 
@@ -73,6 +95,18 @@ mainuan-appimage-manager/
 6. The app appears in the application menu immediately
 
 ## 🆕 New in version 1.0.3 (November 17, 2026)
+
+## Contributing
+
+Report issues in [Issues](https://github.com/mainuan/mainuan-grub-editor/issues)
+and submit changes via pull request to the `main` branch. Every PR must pass the
+[CI](https://github.com/mainuan/mainuan-grub-editor/actions/workflows/ci.yml)
+checks, which must all be green (passing). Document any visible changes in
+[CHANGELOG.md](CHANGELOG.md) and `debian/changelog`.
+
+## Créditos
+
+- David Caixinha ([@tugatechlabDC](https://github.com/tugatechlabDC)): developer and maintainer of the package (`debian/control`).
 
 ## License
 
