@@ -33,13 +33,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/lang/en/).
 ## Author
 
 Developed and maintained by David Caixinha
-Contact: tugatechlab.contacto@gmail.com
 
 ## Contribute
 
 To report bugs or request features:
-- **Issues**: https://github.com/MainuanLinux/mainuan-grub-editor/issues
-- **Discussions**: https://github.com/MainuanLinux/mainuan-grub-editor/discussions
+- **Issues**: https://github.com/mainuan/mainuan-appimage-manager/issues
+- **Discussions**: https://github.com/mainuan/mainuan-appimage-manager/discussions
 - **Email**: info@mainuanlinux.com
 
 To contribute translations:
@@ -49,9 +48,8 @@ To contribute translations:
 4. Add language to `SUPPORTED_LANGUAGES` in `strings.py`
 5. Submit Pull Request
 
-
 ## Support
 
-- **Documentation**: https://mainuan.org/docs/mainuan-grub-editor
+- **Documentation**: https://mainuan.org/docs/mainuan-appimage-manager
 - **Community**: https://mainuan.org/community
 - **Support**: support@mainuanlinux.com
