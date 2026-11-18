@@ -9,6 +9,8 @@
 
 AppImage integration manager for Mainuan Linux.
 
+</div>
+
 ## Description
 
 Mainuan AppImage Manager lets you easily integrate AppImage applications into your Mainuan Linux desktop. Select any AppImage file, and the manager moves it to `~/AppImages/`, extracts its icon and metadata, and creates a `.desktop` entry so the app appears in your application menu — no manual steps needed.
