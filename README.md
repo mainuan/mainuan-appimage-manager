@@ -1,7 +1,7 @@
 # Mainuan AppImage Manager
 
 [![License: GPL-3.0+](https://img.shields.io/badge/License-GPL--3.0%2B-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
-[![Version](https://img.shields.io/badge/version-1.0.1--2-green.svg)]()
+[![Version](https://img.shields.io/badge/version-1.0.3-green.svg)]()
 
 AppImage integration manager for Mainuan Linux.
 
