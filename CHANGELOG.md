@@ -7,6 +7,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/lang/en/).
 
 ### 🎉 Initial Release --> [1.0.3] - 2026-11-17
 
+## Types of Changes
+
+- **Added** for new features
+- **Changed** for changes in existing functionality
+- **Deprecated** for features soon to be removed
+- **Removed** for now removed features
+- **Fixed** for any bug fixes
+- **Security** in case of vulnerabilities
+
 #### Management
 - Run AppImages directly from the manager
 - Delete AppImage, icon and `.desktop` entry in one action
@@ -26,10 +35,23 @@ and this project adheres to [Semantic Versioning](https://semver.org/lang/en/).
 Developed and maintained by David Caixinha
 Contact: tugatechlab.contacto@gmail.com
 
-## Contributing
+## Contribute
 
-- **Email**: tugatechlab.contacto@gmail.com
+To report bugs or request features:
+- **Issues**: https://github.com/MainuanLinux/mainuan-grub-editor/issues
+- **Discussions**: https://github.com/MainuanLinux/mainuan-grub-editor/discussions
+- **Email**: info@mainuanlinux.com
+
+To contribute translations:
+1. Create file `translations/locales/XX.py` (XX = language code)
+2. Copy structure from `translations/locales/en.py`
+3. Translate all `STRINGS`
+4. Add language to `SUPPORTED_LANGUAGES` in `strings.py`
+5. Submit Pull Request
+
 
 ## Support
 
-- **Documentation**:
+- **Documentation**: https://mainuan.org/docs/mainuan-grub-editor
+- **Community**: https://mainuan.org/community
+- **Support**: support@mainuanlinux.com
